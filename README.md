@@ -1,10 +1,10 @@
-# 配置china-dnsmasq
+# 更新china-dnsmasq
 
 echo "conf-dir=/etc/dnsmasq.d" >> /etc/dnsmasq.conf
 
-wget /etc/dnsmasq.d 
+wget /etc/dnsmasq.d https://raw.githubusercontent.com/kszym2002/dnsmasq-ps4/master/cn-ipset.conf
 
-wget /etc/dnsmasq.d 
+wget /etc/dnsmasq.d https://raw.githubusercontent.com/kszym2002/dnsmasq-ps4/master/cn.conf
 
 # 更新mwan3 chnroute
 
