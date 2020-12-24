@@ -1,0 +1,17 @@
+# 轮子
+regexp:(.*.||)(dafahao|minghui|dongtaiwang|dajiyuan|falundata|shenyun|tuidang|epochweekly|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian).(org|com|net)
+
+# BT
+regexp:(torrent|.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce.php?passkey=)
+
+# 迅雷
+regexp:(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+
+# 外汇
+regexp:(.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
+
+#流媒体
+regexp:(.*.||)(youtube|twitch|netflix).(org|com|net|tv)
+
+#CN
+geosite:cn
